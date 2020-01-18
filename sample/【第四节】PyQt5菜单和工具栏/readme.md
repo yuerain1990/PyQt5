@@ -21,3 +21,5 @@ self.statusBar().showMessage('Ready')
 
 QMainWindow类第一次调用statusBar()方法创建一个状态栏。后续调用返回的状态栏对象。
 showMessage()状态栏上显示一条信息。
+
+### 菜单栏
