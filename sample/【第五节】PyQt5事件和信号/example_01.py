@@ -1,15 +1,18 @@
 #!/usr/bin/python3
 # -*- coding:utf-8 -*-
 
-# 状态栏
+# 信号槽 Signals & slots
 import sys
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import (QWidget, QLCDNumber, QSlider, QVBoxLayout, QApplication)
+from PyQt5.QtWidgets import (QWidget, QLCDNumber, QSlider,
+                             QVBoxLayout, QApplication)
 
 
 class Example(QWidget):
+
     def __init__(self):
         super().__init__()
+
         self.initUI()
 
     def initUI(self):
