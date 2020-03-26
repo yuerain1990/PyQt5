@@ -38,3 +38,9 @@ sld.valueChanged.connect(lcd.display)
 sender是发出信号的对象。receiver是接收信号的对象。slot（插槽）是对信号做出反应的方法。
 
 ![ex_01.png](../../sample/【第五节】PyQt5事件和信号/示意图/ex_01.png "ex_01.png")
+
+
+### 重新实现时间处理器
+
+在PyQt5中常用通过重新实现事件处理来处理事件。
+

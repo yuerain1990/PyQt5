@@ -4,7 +4,7 @@
 # 重新实现事件处理器
 import sys
 from PyQt5.QtCore import Qt
-from PyQt5.QtWidgets import QWidget, QApplication
+from PyQt5.QtWidgets import (QWidget, QApplication)
 
 
 class Example(QWidget):
@@ -26,3 +26,4 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Example()
     sys.exit(app.exec_())
+
