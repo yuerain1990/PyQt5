@@ -6,6 +6,7 @@ import sys
 from PyQt5.QtCore import pyqtSignal, QObject
 from PyQt5.QtWidgets import QMainWindow, QApplication
 
+
 class Communicate(QObject):
     closeApp = pyqtSignal()
 
